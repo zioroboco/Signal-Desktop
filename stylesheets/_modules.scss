@@ -4854,6 +4854,9 @@ button.module-conversation-details__action-button {
     }
   }
 
+  // 320 - 28 (avatar) - 32 (left/right margin) - 12 (space to avatar)
+  width: 210px;
+  
   &__search {
     flex-grow: 1;
     position: relative;
