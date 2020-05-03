@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+git clean -dfx
+
 yarn install --frozen-lockfile
 yarn generate
 yarn build:webpack
