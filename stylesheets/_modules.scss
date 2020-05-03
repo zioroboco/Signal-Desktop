@@ -9235,6 +9235,7 @@ button.module-image__border-overlay:focus {
   }
 
   &.module-left-pane-dialog--warning {
+    display: none;
     background-color: $color-accent-yellow;
     color: $color-black;
 
